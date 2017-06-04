@@ -21,10 +21,10 @@ namespace MVC5_FastFood.Models
         public string Email { get; set; }
 
         [Required] 
-        [ForeignKey("NaturalidadeCidade")]
+        //[ForeignKey("NaturalidadeCidade")]
         public int NaturalidadeId { get; set; }
 
-        [ForeignKey("NaturalidadeCidadeId")]
+        [ForeignKey("NaturalidadeId")]
         public NaturalidadeCidade Naturalidade { get; set; }
 
     }

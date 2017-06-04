@@ -13,7 +13,9 @@ namespace MVC5_FastFood.Models.DataAcess
         //https://msdn.microsoft.com/pt-br/library/jj856238.aspx
         //https://coding.abel.nu/2012/02/updating-a-table-with-ef-migrations/
         //https://stackoverflow.com/questions/23662755/how-to-add-new-table-to-existing-database-code-first
-        public Contexto():base("ConnMVC") { }
+        //      Add-Migration NomeDaMigration
+        //Update-database
+        public Contexto() : base("ConnMVC") { }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

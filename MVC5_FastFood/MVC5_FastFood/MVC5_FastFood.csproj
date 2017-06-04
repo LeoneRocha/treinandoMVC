@@ -171,13 +171,14 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\NaturalidadeCidadesController.cs" />
+    <Compile Include="Controllers\Pessoas1Controller.cs" />
     <Compile Include="Controllers\PessoasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201705312302230_InitialCreate.cs" />
-    <Compile Include="Migrations\201705312302230_InitialCreate.Designer.cs">
-      <DependentUpon>201705312302230_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\201706041400226_inicial.cs" />
+    <Compile Include="Migrations\201706041400226_inicial.Designer.cs">
+      <DependentUpon>201706041400226_inicial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -254,6 +255,11 @@
     <Content Include="Views\NaturalidadeCidades\Details.cshtml" />
     <Content Include="Views\NaturalidadeCidades\Edit.cshtml" />
     <Content Include="Views\NaturalidadeCidades\Index.cshtml" />
+    <Content Include="Views\Pessoas1\Create.cshtml" />
+    <Content Include="Views\Pessoas1\Delete.cshtml" />
+    <Content Include="Views\Pessoas1\Details.cshtml" />
+    <Content Include="Views\Pessoas1\Edit.cshtml" />
+    <Content Include="Views\Pessoas1\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -267,8 +273,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201705312302230_InitialCreate.resx">
-      <DependentUpon>201705312302230_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201706041400226_inicial.resx">
+      <DependentUpon>201706041400226_inicial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
